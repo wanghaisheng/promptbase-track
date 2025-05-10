@@ -1,4 +1,4 @@
-name: Daily ai webesite Traccker
+name: Daily ai prompts Traccker
 
 on:
   schedule:
