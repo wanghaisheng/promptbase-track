@@ -125,7 +125,7 @@ def aggregate_all_domains(domain_file, output_file):
 def main():
     domain_file = 'domainlist.csv'
     today = datetime.now().strftime('%Y-%m-%d')
-    date_folder = f"results_{today}"
+    date_folder = f"results/{today}"
     if not os.path.exists(date_folder):
         os.makedirs(date_folder)
     output_file = os.path.join(date_folder, f'all_domains_url_details_{today}.csv')
